@@ -1,0 +1,27 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<div class="wrapper">
+  <article class="head">
+    <h1 class="name">
+      {{ node.name || 'Unknown' }}
+    </h1>
+    <div class="toolbar">
+      <app-status [loading]="node.loading" [online]="node.online"></app-status>
+      <button [disabled] = "!node.online" (click)="handleToogleExpand(node)">
+        <i [ngClass] = "expanded && node.online ? 'fa fa-chevron-up fa_custom' : 'fa fa-chevron-down fa_custom'">
+        </i>
+      </button>
+    </div>
+  </article>
+  <div class="body">
+    <span class="url">
+      {{ node.url }}
+    </span>
+  </div>
+  <div class="blocks-wrapper" *ngIf="expanded">
+    <div *ngFor="let block of node.blocks"> 
+      <app-block [block]="block"> </app-block>
+    </div>
+  </div>
+</div>

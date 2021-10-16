@@ -1,0 +1,44 @@
+.block-item {
+    padding: 0 5px;
+    display: flex;
+    flex-flow: column;
+    justify-items: flex-start;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    margin-bottom: 5px;
+  }
+  .block-item > div {
+    display: flex;
+    flex: 1;
+    width: fit-content;
+  }
+  
+  .block-text {
+    height: 60px;
+    left: 8px;
+    right: 7.72px;
+    top: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #263238;
+  }
+
+  small {
+    height: 16px;
+    left: 8px;
+    right: 7.72px;
+    top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #304FFE;
+  }
+  

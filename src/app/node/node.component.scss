@@ -1,0 +1,85 @@
+@import "../../assets/stylesheets/base/colors";
+
+.wrapper {
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 0 10px #00000021;
+  background: #fbfbfb;
+  border-radius: 3px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+ margin-top: 0;
+ margin-bottom: 6px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.44px;
+color: #263238;
+
+}
+
+.url {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #aaaaaa;
+  font-weight: 500;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: right;
+
+  button{
+    border: unset;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+ }
+}
+
+.fa_custom{
+  border: none;
+  &::before{
+   border: none;
+  }
+}
+
+.i{
+  position: absolute;
+  color: #979797;
+
+.blocks-wrapper {
+  margin: 20px 0;
+  text-align: center;
+  color: $danger-color;
+  font-weight: 700;
+}
+
+.expander{
+  &::before {
+    color: #979797;
+  }
+ margin-top: 5px;
+margin-left: 10px;
+color: #979797;
+
+}}
+
+.fa_custom{
+  color: #979797;
+  width: fit-content;
+  margin: 0 auto;
+}
