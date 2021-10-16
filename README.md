@@ -1,12 +1,31 @@
-# Toy Blocks
+# ToyBlock Project #
 
-## Installation
+The challenge of the toyblock project is to finish an application that is already half full. Thus, I was asked to build c based on a pre-defined layout and that would be identical to the proposed
 
-1. `git clone repo`
-2. `cd toy-blocks-client-angular`
-3. `yarn install`
-4. `yarn start`
+So we have the following steps:
+```
+1. Return existing blocks;
+2. Return the Nodes
+3. Identify the status of nodes
 
+```
+
+## About the service ##
+
+Version (8.1.3). The local Angular CLI version is used.
+
+Nodes that are not online will be disabled and cannot be expanded. The return of notes has been mapped in a way that there is no dependency and everyone loads quickly.
+
+### Instructions for running the project ###
+
+```
+- 1 = "git clone" to clone repository
+- 2 = enter the src folder
+- 3 = "npm install" to download dependencies
+- 4 = "npm audit fix" to fix vulnerabilities
+- 5 = "npm run start" to start the project
+-6 =  "npm run test" to run unit tests
+```
 
 ## Introduction
 
@@ -40,3 +59,11 @@ ___
 - At the end of the challenge please verbally summarize and explain everything you have done, and show your UI work if applicable.
 - Once you’ve completed the challenge, please email me a link to the video.
 - If you are having difficulties with the challenge, please email me for assistance.
+
+## Video
+
+Eplanatory video of programming and development logic
+
+| Video | Caminho |
+| ------ | ------ |
+| Loom | https://www.loom.com/share/74c86d7818af43dcb85cc1636e0a0c43 |
